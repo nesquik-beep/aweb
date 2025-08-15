@@ -1,0 +1,415 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    scroll-padding-top: 140px;
+}
+
+.alfa-slab-one-regular {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.gravitas-one-regular {
+  font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fundo{
+    background-color: #E5E5E5;
+/*cabeçalho*/
+}
+.fundo1 {
+    background-color: #14213D;
+    height: 140px; 
+    padding-right: 30px;
+    position: fixed;  
+    top: 0;   
+    left: 0;  
+    width: 100%;  
+    z-index: 1000; 
+}
+.minifoto{
+    border-radius: 50%;
+    background-image: url(https://i.postimg.cc/2ygDMNjN/IMG-20250814-191948-552.webp);
+    height: 100px;
+    width: 100px;
+    margin: 20px 0 0 20px;
+}
+.minititulo{
+    position: absolute;
+    top: 50px;
+    left: 6%;
+    color: white;
+    font-size: 40px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu li {
+    float: right;
+    margin-left: 50px;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: orange;
+    font-size: 50px;
+    line-height: 140px;
+}
+
+/* Ícones */
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* Hover */
+.menu a:hover {
+    color: #9F9F9F;
+}
+/*fim do cabeçalho*/
+/*hero*/
+.foto {
+    border-radius: 30%;
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    background-size: cover; 
+    background-position: center;
+    top: 35%;
+    left: 2%;
+}
+
+.titulo{
+    width: 1200px;
+    height: 100px;
+    position:absolute;
+    top: 13%;
+    left: 4%;
+    color: #14213D;
+    font-size: 100px;
+    font-family: "Gravitas One", serif,"Alfa Slab One", serif;
+    margin: 0;
+}
+
+.subtitulo, .subtitulo1{
+
+    position:absolute;
+    color: black;
+}
+
+.subtitulo{
+    height: 200px;
+    width: 800px;
+    top: 32%;
+    left: 53%;
+    font-size: 150px;
+    margin: 0;
+}
+
+.subtitulo1{
+    height: 200px;
+    width: 550px;
+    top: 45%;
+    left: 56.5%;
+    font-size: 120px;
+    margin: 0;
+}
+
+.botaocta{
+    height: 150px;
+    width: 400px;
+    background-color: orange;
+    top: 71%;
+    left: 57.8%;
+    position:absolute;
+    color: white;
+    font-size: 50px;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 30px;
+    transition: none;
+    
+}
+.botaocta:hover{
+    background-color: #14213D;
+    cursor: help;
+}
+/*fim do hero*/
+
+/*seção sobre mim*/
+
+.foto1, .foto2{
+    width: 600px;
+    height: 700px;
+    border-radius: 200px;
+    position: absolute;
+}
+
+.foto1{
+    top: 130%;
+    left: 1%;
+}
+.foto2{
+    top: 160%;
+    left: 25%;
+}
+h2 {
+    font-size: 50px;
+}
+.titsob{
+    position: absolute;
+    left:25% ;
+    top: -15%;
+    color: #14213D;
+
+}
+#sobremim{
+    background-color: white;
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    top:140% ;
+    left: 55%;
+    border: 3px solid #14213D;
+}
+
+.psob {
+    margin: 25px;
+    font-size: 40px;
+    text-align: justify;
+    color: black;
+}
+/*fim sobre  mim*/
+
+/*curiosidades*/
+
+.titcuriosidades {
+    text-align: center;
+    font-size: 60px;
+    color: #14213D;
+}
+
+.curiosidade {
+    list-style: none; /* remove as bolinhas */
+    padding: 0;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.curiosidade li {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid #14213D;
+    text-align: center;
+}
+
+.curiosidade h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #14213D;
+}
+
+.curiosidade p {
+    font-size: 30px;
+    line-height: 1.5;
+    color: black;
+}
+
+#curiosidades article {
+    margin-top: 230vh;
+}
+/*causo*/
+.historia {
+    max-width: 800px;    
+    margin: 100px auto; 
+    background-color: white; 
+    border: 2px solid #14213D;
+    padding: 30px;        
+    border-radius: 15px;   
+    text-align: center;   
+}
+
+.historia h2 {
+    font-size: 60px;
+    margin-bottom: 20px; 
+    color: #14213D;
+}
+
+.historia p {
+    font-size: 30px; 
+    line-height: 1.5;
+    text-align: justify;
+    color: black;
+}
+/*fim causo*/
+/*portifoio*/
+
+#portifolio {
+    width: 100%;
+    background-color: #E5E5E5;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+.porttitulo {
+    font-size: 60px;
+    margin: 50px;
+    color: #14213D;
+}
+
+
+.card {
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    border: solid 2px #14213D;
+    color: black;
+}
+
+
+.card1 { 
+    margin-top: 0; 
+}
+.card2 { 
+    margin-top: 100px;
+ }
+.card3 { 
+    margin-top: 0;
+ }
+.card4 { 
+    margin-top: 100px;
+ }
+
+
+.card img {
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.card p {
+    margin: 10px 0;
+    font-size: 20px;
+}
+.card:hover {
+    background-color: #14213D;
+    color: white;
+    transform: translateY(-5px);
+}
+/*fim portifolio*/
+/*rotina*/
+#rotina {
+    padding: 50px;
+    text-align: center;
+    background-color: #14213D;
+    color: white;
+}
+
+#rotina h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#rotina table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 24px;
+}
+
+#rotina th, #rotina td {
+    border: 2px solid black;
+    padding: 15px;
+}
+
+#rotina th {
+    background-color: orange;
+    color: white;
+}
+/*fim rotina*/
+/*footer*/
+.rodape {
+    background-color: #14213D;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.rodapetit{
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: white;
+    position: relative;
+}
+
+.rodapetit span {
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: #333;
+    vertical-align: middle;
+    margin:20px;
+}
+
+.rodapecaixa {
+    width: 45%;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.rodapecaixa h3 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+
+.rodapecaixa ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rodapecaixa li {
+    margin-bottom: 10px;
+}
+
+.rodapecaixa a {
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.rodapecaixa a:hover {
+    color: white;
+}
+
+
+.rodapecaixa {
+    font-size: 25px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+/*fim footer*/
